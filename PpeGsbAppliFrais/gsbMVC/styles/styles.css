@@ -1,0 +1,30 @@
+table.listeLegere {width:80%;margin-bottom : 0.5em;}
+
+/* Tableaux quadrillés utilisés pour l'affichage de listes avec contenu léger*/
+table.listeLegere th, table.listeLegere td {
+  border : transparent 0.1em;
+  padding:0.5em;
+  vertical-align : top;
+  text-align : left;
+}
+
+table.listeLegere caption {
+  font-size : 1.1em;
+  text-align : left;
+  margin-bottom : 0.3em;
+}
+table.listeLegere td {
+  vertical-align:top;
+  font-weight:normal;
+}
+table.listeLegere th.eltForfait{
+  color:black;
+}
+table.listeLegere th.date, table.listeLegere th.montant{
+  width:15%;
+  color:black;
+}
+table.listeLegere th.libelle{
+  width:70%;
+  color:black;
+}
